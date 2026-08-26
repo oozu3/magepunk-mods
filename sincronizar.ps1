@@ -1,4 +1,4 @@
-#requires -Version 5.1
+﻿#requires -Version 5.1
 <#
   Sincronizador de mods - Magepunk SMP
   Baixa, atualiza e remove APENAS os mods obrigatorios do servidor.
@@ -13,7 +13,7 @@ try { [Console]::OutputEncoding = [Text.Encoding]::UTF8 } catch {}
 
 # ===================== CONFIGURACAO =====================
 # (estas 2 linhas sao reescritas automaticamente por publicar.ps1)
-$ManifestUrl = 'https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPO/main/manifest.json'
+$ManifestUrl = 'https://raw.githubusercontent.com/oozu3/magepunk-mods/main/manifest.json'
 $PackName    = 'Magepunk SMP'
 # ========================================================
 
@@ -281,3 +281,4 @@ if ($falhas.Count -eq 0) {
 }
 Write-Host ''
 Read-Host '  Enter para fechar'
+
