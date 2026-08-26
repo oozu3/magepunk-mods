@@ -293,3 +293,4 @@ if ($falhas.Count -eq 0) {
 Write-Host ''
 Read-Host '  Enter para fechar'
 
+

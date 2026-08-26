@@ -2,8 +2,8 @@
     "pack":  "Magepunk SMP",
     "mcVersion":  "1.21.1",
     "loader":  "neoforge",
-    "generated":  "2026-08-26 12:22",
-    "count":  124,
+    "generated":  "2026-08-26 18:20",
+    "count":  125,
     "removeKeys":  [
                        "chunky",
                        "fallingtree",
@@ -245,6 +245,12 @@
                       "size":  410690,
                       "sha1":  "418fcd42e3a7844c9bdc71c9b6401fdb3894e0c4",
                       "url":  "https://cdn.modrinth.com/data/vvuO3ImH/versions/yohfFbgD/curios-neoforge-9.5.1%2B1.21.1.jar"
+                  },
+                  {
+                      "name":  "CustomSkinLoader_Universal-15.0.1.jar",
+                      "size":  218215,
+                      "sha1":  "ab8dd841cafc3b4ecbf0250d3f5aee8a1fdb506a",
+                      "url":  "https://cdn.modrinth.com/data/idMHQ4n2/versions/OLaesh5y/CustomSkinLoader_Universal-15.0.1.jar"
                   },
                   {
                       "name":  "deeperdarker-neoforge-1.21.1-1.4.1.jar",
