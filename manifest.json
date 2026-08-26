@@ -2,8 +2,15 @@
     "pack":  "Magepunk SMP",
     "mcVersion":  "1.21.1",
     "loader":  "neoforge",
-    "generated":  "2026-08-26 11:42",
+    "generated":  "2026-08-26 12:22",
     "count":  124,
+    "removeKeys":  [
+                       "chunky",
+                       "fallingtree",
+                       "skinrestorer",
+                       "tectonic",
+                       "terralith"
+                   ],
     "files":  [
                   {
                       "name":  "aces_spell_utils-1.2.7.1-1.21.1.jar",

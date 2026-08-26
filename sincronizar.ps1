@@ -1,7 +1,7 @@
 ﻿#requires -Version 5.1
 <#
   Sincronizador de mods - Magepunk SMP
-  Baixa, atualiza e remove APENAS os mods obrigatorios do servidor.
+  Baixa, atualiza e remove APENAS os mods do pack.
   Mods pessoais do jogador (shaders, minimapa, etc) nao sao tocados.
 #>
 param([string]$PastaMods)
@@ -152,10 +152,8 @@ try {
     } else {
         $bruto = [string]$resp.Content
     }
-    # remove BOM se vier junto
     if ($bruto.Length -gt 0 -and $bruto[0] -eq [char]0xFEFF) { $bruto = $bruto.Substring(1) }
-    $bruto = $bruto.Trim()
-    $manifesto = $bruto | ConvertFrom-Json
+    $manifesto = $bruto.Trim() | ConvertFrom-Json
 } catch {
     Erro "Nao consegui baixar a lista: $($_.Exception.Message)"
     Erro "URL: $ManifestUrl"
@@ -164,13 +162,15 @@ try {
     exit 1
 }
 $arquivos = @($manifesto.files)
-Ok ("{0} mods obrigatorios (lista gerada em {1})" -f $arquivos.Count, $manifesto.generated)
+Ok ("{0} mods no pack (lista gerada em {1})" -f $arquivos.Count, $manifesto.generated)
 
-# ---- estado anterior ----
-$gerenciadosAntes = @()
-if (Test-Path $estadoPath) {
-    try { $gerenciadosAntes = @((Get-Content $estadoPath -Raw -Encoding UTF8 | ConvertFrom-Json).managed) } catch { $gerenciadosAntes = @() }
-}
+# ---- lista de exclusao ----
+# O pack so tem duas listas:
+#   files      -> mods obrigatorios
+#   removeKeys -> lista de exclusao
+# Qualquer mod fora dessas duas e pessoal do jogador e nao e tocado.
+$removeKeys = @{}
+if ($manifesto.removeKeys) { foreach ($k in @($manifesto.removeKeys)) { $removeKeys[$k] = $true } }
 
 # ---- indexar pasta local ----
 $locais = @{}
@@ -197,19 +197,29 @@ foreach ($e in $arquivos) {
 }
 Write-Host ("`r" + (' ' * 45) + "`r") -NoNewline
 
-$remover = New-Object System.Collections.Generic.List[string]
+# Decide o que sai. So existem dois motivos para remover um arquivo:
+#   1. e um mod obrigatorio, mas numa versao diferente da do pack
+#   2. o nome dele esta na lista de exclusao
+# Qualquer outra coisa e um mod pessoal do jogador. Nao se toca.
+$remover = @()
 foreach ($nome in $locais.Keys) {
     if ($nomesManifesto.ContainsKey($nome)) { continue }
-    $ehGerenciado = $gerenciadosAntes -contains $nome
-    $mesmaChave   = $chavesManifesto.ContainsKey((Get-ModKey $nome))
-    if ($ehGerenciado -or $mesmaChave) { [void]$remover.Add($nome) }
+    $chave = Get-ModKey $nome
+
+    $motivo = $null
+    if ($chavesManifesto.ContainsKey($chave)) { $motivo = 'versao diferente da do pack' }
+    elseif ($removeKeys.ContainsKey($chave))  { $motivo = 'esta na lista de exclusao' }
+
+    if ($motivo) { $remover += [pscustomobject]@{ nome = $nome; motivo = $motivo } }
 }
 
+$pessoais = $locais.Count - $manter - $remover.Count
 Write-Host ("  ja atualizados : {0}" -f $manter)
 $corB = 'Gray'; if ($baixar.Count -gt 0)  { $corB = 'Yellow' }
 $corR = 'Gray'; if ($remover.Count -gt 0) { $corR = 'Yellow' }
 Write-Host ("  a baixar       : {0}" -f $baixar.Count)  -ForegroundColor $corB
 Write-Host ("  a remover      : {0}" -f $remover.Count) -ForegroundColor $corR
+Write-Host ("  seus, intactos : {0}" -f $pessoais)      -ForegroundColor DarkGray
 
 $estado = @{ managed = @($arquivos | ForEach-Object { $_.name }); updated = (Get-Date -Format o) }
 
@@ -224,16 +234,17 @@ if ($baixar.Count -eq 0 -and $remover.Count -eq 0) {
 
 # ---- remover ----
 if ($remover.Count -gt 0) {
-    Titulo 'Removendo mods que sairam do pack / versoes antigas'
+    Titulo 'Removendo mods que nao fazem mais parte do pack'
     if (-not (Test-Path $quarentena)) { New-Item -ItemType Directory -Path $quarentena -Force | Out-Null }
-    foreach ($nome in $remover) {
+    foreach ($r in $remover) {
         try {
-            $dest = Join-Path $quarentena $nome
+            $dest = Join-Path $quarentena $r.nome
             if (Test-Path $dest) { Remove-Item $dest -Force }
-            Move-Item -Path (Join-Path $mods $nome) -Destination $dest -Force
-            Write-Host "  - $nome" -ForegroundColor DarkYellow
+            Move-Item -Path (Join-Path $mods $r.nome) -Destination $dest -Force
+            Write-Host ("  - {0}" -f $r.nome) -NoNewline -ForegroundColor DarkYellow
+            Write-Host ("   ({0})" -f $r.motivo) -ForegroundColor DarkGray
         } catch {
-            Erro "nao consegui remover $nome ($($_.Exception.Message))"
+            Erro "nao consegui remover $($r.nome) ($($_.Exception.Message))"
         }
     }
     Info "Movidos para: $quarentena"
