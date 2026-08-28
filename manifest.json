@@ -2,11 +2,12 @@
     "pack":  "Magepunk SMP",
     "mcVersion":  "1.21.1",
     "loader":  "neoforge",
-    "generated":  "2026-08-28 09:47",
-    "count":  126,
+    "generated":  "2026-08-28 11:27",
+    "count":  125,
     "removeKeys":  [
                        "chunky",
                        "fallingtree",
+                       "saturn",
                        "skinrestorer",
                        "tectonic",
                        "terralith"
@@ -641,12 +642,6 @@
                       "size":  12986136,
                       "sha1":  "05f666e973d32baaaf405acb9bbed6615b909971",
                       "url":  "https://cdn.modrinth.com/data/T9PomCSv/versions/U678xqle/sable-neoforge-1.21.1-2.0.5.jar"
-                  },
-                  {
-                      "name":  "saturn-mc1.21.1-0.1.5.jar",
-                      "size":  84147,
-                      "sha1":  "e5b9c7e6a7856302c6b078255e6b90b5cc1ec0b0",
-                      "url":  "https://cdn.modrinth.com/data/2eT495vq/versions/V5lIEjKs/saturn-mc1.21.1-0.1.5.jar"
                   },
                   {
                       "name":  "SimplyBows-neoforge-0.1.4-1.21.1.jar",
