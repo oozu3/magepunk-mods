@@ -2,8 +2,8 @@
     "pack":  "Magepunk SMP",
     "mcVersion":  "1.21.1",
     "loader":  "neoforge",
-    "generated":  "2026-08-26 18:29",
-    "count":  125,
+    "generated":  "2026-08-28 09:47",
+    "count":  126,
     "removeKeys":  [
                        "chunky",
                        "fallingtree",
@@ -731,6 +731,12 @@
                       "size":  27154121,
                       "sha1":  "9cfd4154928433e2f1f6cfc3deb48c284debb580",
                       "url":  "https://github.com/oozu3/magepunk-mods/releases/download/mods/twilightforest-1.21.1-4.8.3345-universal.jar"
+                  },
+                  {
+                      "name":  "Vampirism-1.21-1.10.12.jar",
+                      "size":  12483628,
+                      "sha1":  "757d63a771a59f30367a9d4b7f8efd9ef0e190dd",
+                      "url":  "https://cdn.modrinth.com/data/jVZ0F1wn/versions/rAtxPNwi/Vampirism-1.21-1.10.12.jar"
                   },
                   {
                       "name":  "VanillaBackport-neoforge-1.21.1-1.1.7.10.jar",
