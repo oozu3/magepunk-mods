@@ -19,3 +19,4 @@ FallingTree-1.21.1-1.21.1.11.jar                     # esta em Server Side em 20
 Terralith_1.21.1_v2.6.2_Neoforge.jar                 # esta em Server Side em 2026-08-26
 tectonic-3.0.26-neoforge-21.1.jar                    # esta em Server Side em 2026-08-26
 saturn-mc1.21.1-0.1.5.jar                            # saiu de Server-Client Side em 2026-08-28
+veinminer-neoforge-2.11.2+1.21.1.jar                 # saiu de Server-Client Side em 2026-08-28

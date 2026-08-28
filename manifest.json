@@ -2,15 +2,16 @@
     "pack":  "Magepunk SMP",
     "mcVersion":  "1.21.1",
     "loader":  "neoforge",
-    "generated":  "2026-08-28 11:27",
-    "count":  125,
+    "generated":  "2026-08-28 11:29",
+    "count":  124,
     "removeKeys":  [
                        "chunky",
                        "fallingtree",
                        "saturn",
                        "skinrestorer",
                        "tectonic",
-                       "terralith"
+                       "terralith",
+                       "veinminer"
                    ],
     "files":  [
                   {
@@ -738,12 +739,6 @@
                       "size":  54902084,
                       "sha1":  "eb30efe569cbd5186abf9e5d1e64d4a84895b346",
                       "url":  "https://cdn.modrinth.com/data/6xwxDTgf/versions/rUSWdBok/VanillaBackport-neoforge-1.21.1-1.1.7.10.jar"
-                  },
-                  {
-                      "name":  "veinminer-neoforge-2.11.2+1.21.1.jar",
-                      "size":  616301,
-                      "sha1":  "19f67a98cf5e7cfeefb089b5ec31450ac6d5bd53",
-                      "url":  "https://cdn.modrinth.com/data/OhduvhIc/versions/syKekkIm/veinminer-neoforge-2.11.2%2B1.21.1.jar"
                   },
                   {
                       "name":  "voicechat-neoforge-1.21.1-2.6.22.jar",
