@@ -2,8 +2,8 @@
     "pack":  "Magepunk SMP",
     "mcVersion":  "1.21.1",
     "loader":  "neoforge",
-    "generated":  "2026-08-29 12:46",
-    "count":  133,
+    "generated":  "2026-08-29 12:49",
+    "count":  132,
     "removeKeys":  [
                        "chunky",
                        "fallingtree",
@@ -11,7 +11,8 @@
                        "skinrestorer",
                        "tectonic",
                        "terralith",
-                       "veinminer"
+                       "veinminer",
+                       "watermedia-binaries"
                    ],
     "files":  [
                   {
@@ -783,16 +784,10 @@
                       "url":  "https://cdn.modrinth.com/data/eBzFuVTM/versions/ygogZrIE/waterframes-NEOFORGE-mc1.21.1-v2.1.23.jar"
                   },
                   {
-                      "name":  "watermedia_binaries-3.0.0.6.jar",
-                      "size":  143725808,
-                      "sha1":  "8f132fc2fec0fe91a9a085c11088f0773da187fc",
-                      "url":  "https://cdn.modrinth.com/data/4997XcoK/versions/fYWsOuBz/watermedia_binaries-3.0.0.6.jar"
-                  },
-                  {
-                      "name":  "watermedia-3.0.0.23.jar",
-                      "size":  3625444,
-                      "sha1":  "a644ab079cc9ed19a62b181e0252be5a9a422166",
-                      "url":  "https://cdn.modrinth.com/data/G922NeHS/versions/FdCZ5Rxq/watermedia-3.0.0.23.jar"
+                      "name":  "watermedia-2.1.34.jar",
+                      "size":  37857681,
+                      "sha1":  "a698f1220daa256154e0d46670e2a3f048058b1b",
+                      "url":  "https://cdn.modrinth.com/data/G922NeHS/versions/qGhHJv6H/watermedia-2.1.34.jar"
                   },
                   {
                       "name":  "watervision-NF-mc1.21.1-v0.1.0-alpha.jar",
