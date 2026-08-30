@@ -1,5 +1,5 @@
 ﻿{
-    "atualizado":  "2026-08-30 16:36",
+    "atualizado":  "2026-08-30 16:43",
     "vistos":  {
                    "resourcefullib":  [
                                           "resourcefullib-neoforge-1.21-3.0.12.jar"
@@ -22,9 +22,6 @@
                    "eternalstarlight":  [
                                             "eternalstarlight-0.9.0+1.21.1+neoforge.jar"
                                         ],
-                   "waterframes":  [
-                                       "waterframes-NEOFORGE-mc1.21.1-v2.1.23.jar"
-                                   ],
                    "lithostitched":  [
                                          "lithostitched-1.8.0+beta4-neoforge-21.1.jar"
                                      ],
@@ -37,9 +34,6 @@
                    "immersive vehicles":  [
                                               "Immersive Vehicles-1.21.1-24.0.0.jar"
                                           ],
-                   "supplementaries":  [
-                                           "supplementaries-1.21.1-3.9.3-neoforge.jar"
-                                       ],
                    "carryon":  [
                                    "carryon-neoforge-1.21.1-2.2.6.13.jar"
                                ],
@@ -49,6 +43,9 @@
                    "hostileneuralnetworks":  [
                                                  "HostileNeuralNetworks-1.21.1-6.5.1.jar"
                                              ],
+                   "tfmg":  [
+                                "tfmg-1.2.0.jar"
+                            ],
                    "createaddition":  [
                                           "createaddition-1.7.0.jar"
                                       ],
@@ -58,18 +55,21 @@
                    "malum":  [
                                  "malum-1.21.1-1.8.2.jar"
                              ],
-                   "baguettelib":  [
-                                       "baguettelib-1.21.1-NeoForge-2.0.6.jar"
-                                   ],
+                   "patchouli":  [
+                                     "Patchouli-1.21.1-93-NEOFORGE.jar"
+                                 ],
                    "copycats":  [
                                     "copycats-3.0.8+mc.1.21.1-neoforge.jar"
                                 ],
-                   "architectury":  [
-                                        "architectury-13.0.11-neoforge.jar"
-                                    ],
+                   "create-gunsmithing":  [
+                                              "create-gunsmithing-1.21.1-1.4.9.jar"
+                                          ],
                    "player-animation-lib":  [
                                                 "player-animation-lib-forge-2.0.4+1.21.1.jar"
                                             ],
+                   "letsdo-bakery":  [
+                                         "letsdo-bakery-neoforge-2.1.6.jar"
+                                     ],
                    "monolib":  [
                                    "monolib-neoforge-1.21.1-4.1.0.jar"
                                ],
@@ -82,6 +82,9 @@
                    "connector":  [
                                      "connector-2.0.0-beta.17+1.21.1-full.jar"
                                  ],
+                   "letsdo-brewery":  [
+                                          "letsdo-brewery-neoforge-2.1.9.jar"
+                                      ],
                    "rightclickharvest":  [
                                              "rightclickharvest-neoforge-4.6.1+1.21.1.jar"
                                          ],
@@ -136,18 +139,18 @@
                    "fragmentum":  [
                                       "fragmentum-neoforge-1.21.1-2.4.4.jar"
                                   ],
-                   "jamlib":  [
-                                  "jamlib-neoforge-1.3.6+1.21.1.jar"
-                              ],
                    "chunkloaders":  [
                                         "chunkloaders-1.2.9-neoforge-mc1.21.jar"
                                     ],
                    "create-submarine":  [
                                             "create_submarine-2.2.4.jar"
                                         ],
-                   "createoreexcavation":  [
-                                               "createoreexcavation-1.21-1.6.8.jar"
-                                           ],
+                   "athena":  [
+                                  "athena-neoforge-1.21.1-4.0.6.jar"
+                              ],
+                   "saturn":  [
+                                  "saturn-mc1.21.1-0.1.5.jar"
+                              ],
                    "geckolib":  [
                                     "geckolib-neoforge-1.21.1-4.9.2.jar"
                                 ],
@@ -155,6 +158,9 @@
                                       "watermedia-3.0.0.23.jar",
                                       "watermedia-2.1.34.jar"
                                   ],
+                   "modonomicon":  [
+                                       "modonomicon-1.21.1-neoforge-1.120.4.jar"
+                                   ],
                    "framework":  [
                                      "framework-neoforge-1.21.1-0.13.11.jar"
                                  ],
@@ -203,9 +209,9 @@
                    "create-automotives":  [
                                               "create-automotives-1.21.1-V2.jar"
                                           ],
-                   "letsdo-beachparty":  [
-                                             "letsdo-beachparty-neoforge-2.1.4.jar"
-                                         ],
+                   "ars-additions":  [
+                                         "ars_additions-1.21.1-21.3.0.jar"
+                                     ],
                    "lithium":  [
                                    "lithium-neoforge-0.15.4+mc1.21.1.jar"
                                ],
@@ -233,8 +239,8 @@
                    "journeymap":  [
                                       "journeymap-neoforge-1.21.1-6.0.5.jar"
                                   ],
-                   "createdragonsplus":  [
-                                             "CreateDragonsPlus-1.11.7b.jar"
+                   "letsdo-beachparty":  [
+                                             "letsdo-beachparty-neoforge-2.1.4.jar"
                                          ],
                    "simplybows":  [
                                       "SimplyBows-neoforge-0.1.4-1.21.1.jar"
@@ -251,27 +257,21 @@
                    "corpse":  [
                                   "corpse-neoforge-1.21.1-1.1.13.jar"
                               ],
-                   "tempad":  [
-                                  "tempad-1.21.1-3.0.4-all.jar"
-                              ],
                    "bettercombat":  [
                                         "bettercombat-neoforge-2.4.0+1.21.1.jar"
                                     ],
-                   "octolib":  [
-                                   "OctoLib-NEOFORGE-0.6.2+1.21.jar"
-                               ],
-                   "patchouli":  [
-                                     "Patchouli-1.21.1-93-NEOFORGE.jar"
-                                 ],
+                   "irons-spellbooks":  [
+                                            "irons_spellbooks-1.21.1-3.16.3.jar"
+                                        ],
                    "irons-lib":  [
                                      "irons_lib-1.21.1-2.1.0.jar"
                                  ],
                    "cloth-config":  [
                                         "cloth-config-15.0.140-neoforge.jar"
                                     ],
-                   "letsdo-brewery":  [
-                                          "letsdo-brewery-neoforge-2.1.9.jar"
-                                      ],
+                   "baguettelib":  [
+                                       "baguettelib-1.21.1-NeoForge-2.0.6.jar"
+                                   ],
                    "kotlinforforge":  [
                                           "kotlinforforge-5.12.0-all.jar"
                                       ],
@@ -296,8 +296,11 @@
                    "balm":  [
                                 "balm-neoforge-1.21.1-21.0.65.jar"
                             ],
-                   "ars-additions":  [
-                                         "ars_additions-1.21.1-21.3.0.jar"
+                   "jamlib":  [
+                                  "jamlib-neoforge-1.3.6+1.21.1.jar"
+                              ],
+                   "smartbrainlib":  [
+                                         "SmartBrainLib-neoforge-1.21.1-1.16.11.jar"
                                      ],
                    "farmersdelight":  [
                                           "FarmersDelight-1.21.1-1.3.3.jar"
@@ -350,21 +353,27 @@
                    "relics":  [
                                   "relics-1.21.1-0.12.8.jar"
                               ],
-                   "athena":  [
-                                  "athena-neoforge-1.21.1-4.0.6.jar"
-                              ],
-                   "supermartijn642configlib":  [
-                                                    "supermartijn642configlib-1.1.8-neoforge-mc1.21.jar"
-                                                ],
+                   "createoreexcavation":  [
+                                               "createoreexcavation-1.21-1.6.8.jar"
+                                           ],
+                   "architectury":  [
+                                        "architectury-13.0.11-neoforge.jar"
+                                    ],
+                   "sable":  [
+                                 "sable-neoforge-1.21.1-2.0.5.jar"
+                             ],
+                   "cosmeticcorpsecompat":  [
+                                                "cosmeticcorpsecompat-1.21.1-NeoForge-4.0.1.jar"
+                                            ],
                    "corpsecurioscompat":  [
                                               "corpsecurioscompat-1.21.1-NeoForge-4.0.1.jar"
                                           ],
                    "simplyswords":  [
                                         "simplyswords-neoforge-1.70.1-1.21.1.jar"
                                     ],
-                   "sable":  [
-                                 "sable-neoforge-1.21.1-2.0.5.jar"
-                             ],
+                   "supplementaries":  [
+                                           "supplementaries-1.21.1-3.9.3-neoforge.jar"
+                                       ],
                    "disenchanting-table":  [
                                                "disenchanting_table-merged-1.21.1-5.0.2.jar"
                                            ],
@@ -374,18 +383,15 @@
                    "naturesaura":  [
                                        "NaturesAura-41.9.jar"
                                    ],
-                   "tfmg":  [
-                                "tfmg-1.2.0.jar"
-                            ],
+                   "waterframes":  [
+                                       "waterframes-NEOFORGE-mc1.21.1-v2.1.23.jar"
+                                   ],
                    "platform":  [
                                     "Platform-neoforge-1.21.1-1.3.3.jar"
                                 ],
                    "vampiresneedumbrellas":  [
                                                  "VampiresNeedUmbrellas-1.21.1-1.0.3.jar"
                                              ],
-                   "irons-spellbooks":  [
-                                            "irons_spellbooks-1.21.1-3.16.3.jar"
-                                        ],
                    "fakename":  [
                                     "fakename-1.5.0.jar"
                                 ],
@@ -395,24 +401,24 @@
                    "elevatorid":  [
                                       "elevatorid-neoforge-1.21.1-1.11.4.jar"
                                   ],
-                   "saturn":  [
-                                  "saturn-mc1.21.1-0.1.5.jar"
+                   "octolib":  [
+                                   "OctoLib-NEOFORGE-0.6.2+1.21.jar"
+                               ],
+                   "tempad":  [
+                                  "tempad-1.21.1-3.0.4-all.jar"
                               ],
-                   "modernfix":  [
-                                     "modernfix-neoforge-5.27.20+mc1.21.1.jar"
-                                 ],
-                   "create-gunsmithing":  [
-                                              "create-gunsmithing-1.21.1-1.4.9.jar"
-                                          ],
+                   "createdragonsplus":  [
+                                             "CreateDragonsPlus-1.11.7b.jar"
+                                         ],
                    "arts-and-crafts":  [
                                            "arts_and_crafts-neoforge-1.21.1-1.5.4.jar"
                                        ],
-                   "cosmeticcorpsecompat":  [
-                                                "cosmeticcorpsecompat-1.21.1-NeoForge-4.0.1.jar"
-                                            ],
-                   "letsdo-bakery":  [
-                                         "letsdo-bakery-neoforge-2.1.6.jar"
-                                     ],
+                   "modernfix":  [
+                                     "modernfix-neoforge-5.27.20+mc1.21.1.jar"
+                                 ],
+                   "supermartijn642configlib":  [
+                                                    "supermartijn642configlib-1.1.8-neoforge-mc1.21.jar"
+                                                ],
                    "simplytooltips":  [
                                           "SimplyTooltips-neoforge-0.1.5.jar"
                                       ]
