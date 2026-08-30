@@ -2,8 +2,8 @@
     "pack":  "Magepunk SMP",
     "mcVersion":  "1.21.1",
     "loader":  "neoforge",
-    "generated":  "2026-08-29 12:49",
-    "count":  132,
+    "generated":  "2026-08-30 12:32",
+    "count":  134,
     "removeKeys":  [
                        "chunky",
                        "fallingtree",
@@ -82,6 +82,12 @@
                       "url":  "https://cdn.modrinth.com/data/7zlUOZvb/versions/viJCjM85/azurelib-neo-1.21.1-3.1.11.jar"
                   },
                   {
+                      "name":  "baguettelib-1.21.1-NeoForge-2.0.6.jar",
+                      "size":  81947,
+                      "sha1":  "9b57d59fee1715e5dd9b3e18349f72450e392efd",
+                      "url":  "https://cdn.modrinth.com/data/OfKzpbRU/versions/OpiO7Pem/baguettelib-1.21.1-NeoForge-2.0.6.jar"
+                  },
+                  {
                       "name":  "balm-neoforge-1.21.1-21.0.65.jar",
                       "size":  783793,
                       "sha1":  "69e0b3b69dd23c132e85b7e82310f45ae96b263d",
@@ -146,6 +152,12 @@
                       "size":  1799269,
                       "sha1":  "ee0cddd7053622aa0a6964e7367bd69795273e7d",
                       "url":  "https://cdn.modrinth.com/data/UT2M39wf/versions/ZwGlMBIk/copycats-3.0.8%2Bmc.1.21.1-neoforge.jar"
+                  },
+                  {
+                      "name":  "corpsecurioscompat-1.21.1-NeoForge-4.0.1.jar",
+                      "size":  23659,
+                      "sha1":  "821d83bb4414e93721563e9ed7670976bc2afab1",
+                      "url":  "https://cdn.modrinth.com/data/pJGcKPh1/versions/Ix4uAd2i/corpsecurioscompat-1.21.1-NeoForge-4.0.1.jar"
                   },
                   {
                       "name":  "corpse-neoforge-1.21.1-1.1.13.jar",
