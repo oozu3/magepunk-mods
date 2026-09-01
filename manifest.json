@@ -2,11 +2,13 @@
     "pack":  "Magepunk SMP",
     "mcVersion":  "1.21.1",
     "loader":  "neoforge",
-    "generated":  "2026-08-30 16:43",
-    "count":  137,
+    "generated":  "2026-09-01 12:57",
+    "count":  138,
     "removeKeys":  [
                        "chunky",
                        "fallingtree",
+                       "immersive-optimization",
+                       "modelfix",
                        "saturn",
                        "skinrestorer",
                        "tectonic",
@@ -188,6 +190,12 @@
                       "size":  1869296,
                       "sha1":  "fb4902c2ca3463ea3016efbae7011408eb008d89",
                       "url":  "https://cdn.modrinth.com/data/mva5q4qZ/versions/UcXaPVeD/create_submarine-2.2.4.jar"
+                  },
+                  {
+                      "name":  "create_vampirism-1.0.jar",
+                      "size":  287207,
+                      "sha1":  "e27945d169fba07f8557fc29854086f1a2a307c3",
+                      "url":  "https://cdn.modrinth.com/data/TrvqYCQD/versions/xSRV3rQz/create_vampirism-1.0.jar"
                   },
                   {
                       "name":  "create-1.21.1-6.0.10.jar",
