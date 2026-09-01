@@ -3,11 +3,12 @@
     "mcVersion":  "1.21.1",
     "loader":  "neoforge",
     "generated":  "2026-09-01 13:02",
-    "count":  138,
+    "count":  137,
     "removeKeys":  [
                        "chunky",
                        "fallingtree",
                        "immersive-optimization",
+                       "modernfix",
                        "saturn",
                        "skinrestorer",
                        "tectonic",
@@ -549,12 +550,6 @@
                       "size":  33585331,
                       "sha1":  "7bea3f874f186a17ad3e271df145c179e81c2a1d",
                       "url":  "https://cdn.modrinth.com/data/jgzwYsAN/versions/BIbVs1fo/malum-1.21.1-1.8.2.jar"
-                  },
-                  {
-                      "name":  "modernfix-neoforge-5.27.20+mc1.21.1.jar",
-                      "size":  599474,
-                      "sha1":  "bc1a70e72e7dba8a3ff41404765fdd03a7ac6575",
-                      "url":  "https://cdn.modrinth.com/data/nmDcB62a/versions/VsJnrw8k/modernfix-neoforge-5.27.20%2Bmc1.21.1.jar"
                   },
                   {
                       "name":  "modonomicon-1.21.1-neoforge-1.120.4.jar",
