@@ -22,4 +22,3 @@ saturn-mc1.21.1-0.1.5.jar                            # saiu de Server-Client Sid
 veinminer-neoforge-2.11.2+1.21.1.jar                 # saiu de Server-Client Side em 2026-08-28
 watermedia_binaries-3.0.0.6.jar                      # saiu de Server-Client Side em 2026-08-29
 immersive_optimization-neoforge-1.21.1-0.2.0.jar     # esta em Server Side em 2026-09-01
-modelfix-1.21-1.10.jar                               # esta em Server Side em 2026-09-01
